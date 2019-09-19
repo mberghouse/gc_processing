@@ -1,0 +1,8 @@
+batch_files
+KB1_BottleHeadspace_GC_processing.ipynb
+scratch*py
+processed_data/*
+old_format
+plots/*
+.idea
+raw_data/201*/
