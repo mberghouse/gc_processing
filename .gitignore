@@ -1,7 +1,7 @@
 batch_files
 KB1_BottleHeadspace_GC_processing.ipynb
 scratch*py
-processed_data/*
+processed_data/*txt
 old_format
 plots/*
 .idea

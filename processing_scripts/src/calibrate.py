@@ -266,7 +266,7 @@ def save_sampleconc(N2Ostdx, N2Ostdy, CO2stdx, CO2stdy, CH4stdx, CH4stdy,
 
     # Append the output to a text file if requested
     if write_to_datafile:
-        output.to_csv(save_path, mode='w', sep="\t", index=False, header=False, na_rep='NaN')
+        output.to_csv(save_path, mode='w', sep="\t", index=False, header=True, na_rep='NaN')
 
     return output
 
@@ -368,6 +368,6 @@ def save_sampleconc_new(N2Ostdx, N2Ostdy, CO2stdx, CO2stdy, CH4stdx, CH4stdy,
 
     # Append the output to a text file if requested
     if write_to_datafile:
-        output.to_csv(save_path, mode='a', sep="\t", index=False, header=False, na_rep='NaN')
+        output.to_csv(save_path, mode='w', sep="\t", index=False, header=True, na_rep='NaN')
 
     return output
